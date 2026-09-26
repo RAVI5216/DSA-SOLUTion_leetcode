@@ -5,8 +5,8 @@ class Solution {
         {
             if(map.containsKey(nums[i]))
             {
-                int prevValue=map.get(nums[i]);
-                if((i-prevValue) <=k)
+                int p=map.get(nums[i]);
+                if((i-p) <=k)
                 {
                     return true;
                 }
